@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.bg {
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.items-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0px;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+.input-container {
+  position: relative;
+  border: 2px solid skyblue;
+  width: 40%;
+  padding: 10px;
+  height: fit-content;
+}
+.inpt {
+  height: 100%;
+  border: 1px solid transparent;
+  outline: none;
+  font-size: 30px;
+}
+.simg {
+  position: absolute;
+  height: calc(100% - 10px);
+}
